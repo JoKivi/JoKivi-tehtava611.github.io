@@ -1,0 +1,68 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia';
+    font-size: 13pt;
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin: 3;
+    text-align: left;
+}
+
+h1, h3 {
+    color: blue;
+}
+
+table {
+    width: 80%;
+    font-size: 10pt;
+    background-color: #aee07f;
+    padding: 10%;
+}
+
+table, th, td {
+    border: 2px solid #4b4b4b;
+    border-collapse: collapse;
+    text-align: left;
+    table-layout: auto;
+}
+
+.specialParagraph {
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+pre {
+    font-family: 'Georgia';
+    font-size: 11pt;
+    text-align: left;
+    padding-left: 3%;
+    white-space: pre-wrap;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: #256625;
+}
+
+li {
+    float: left;
+    border-right-color: black;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #040e04;
+}
